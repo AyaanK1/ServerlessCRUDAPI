@@ -30,11 +30,10 @@ API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | /items | Get all items |
-| GET | /items/{id} | Get single item |
-| POST | /items | Create item |
-| PUT | /items/{id} | Update item |
-| DELETE | /items/{id} | Delete item |
+| GET | /tasks/{} |  Return Status |
+| POST | /tasks/{name, completed} | Create item |
+| PATCH | /tasks/{name, completed} | Update item |
+| DELETE | /tasks/{event} | Delete item |
 
 Example Request (POST)
 ```json
@@ -51,7 +50,7 @@ Example Request (Patch)
     "completed": true
 }
 ```
-Deployed using AWS Console / AWS CLI (or SAM / Serverless Framework if you used it)
+Deployed using AWS Console
 
 IAM Permissions
 Lambda role includes permissions for:
