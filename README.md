@@ -68,3 +68,4 @@ Future Improvements
 Add authentication (Cognito or JWT)
 Add input validation
 Add pagination for GET requests
+<img width="1005" height="618" alt="Diagram" src="https://github.com/user-attachments/assets/6ac01c07-d073-4fa3-b0de-0f282d51cae7" />
