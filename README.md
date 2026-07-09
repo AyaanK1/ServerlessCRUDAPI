@@ -30,7 +30,7 @@ API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | /tasks/{} |  Return Status |
+| GET | /tasks/{} |  List Items |
 | POST | /tasks/{name, completed} | Create item |
 | PATCH | /tasks/{name, completed} | Update item |
 | DELETE | /tasks/{event} | Delete item |
